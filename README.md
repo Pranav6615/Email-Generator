@@ -1,9 +1,11 @@
 **📧 Email Generator using LLaMA-2 + Streamlit + LocalTunnel**
+
 This project is a lightweight web-based AI Email Generator powered by LLaMA-2, deployed with Streamlit and made publicly accessible using LocalTunnel. It allows users to generate professional, customizable emails by providing simple prompts like the recipient's role, topic, or purpose.
 
 While the generation process may not be lightning-fast due to local model inference and limited hardware resources, it provides a fully offline and privacy-respecting solution for drafting emails using a fine-tuned LLaMA-2 model.
 
 **🔧 Tech Stack**
+
 LLaMA-2 (7B or similar): Used for generating email content based on input context.
 
 Streamlit: Provides a clean, interactive UI for users to input parameters and view the generated email.
@@ -11,6 +13,7 @@ Streamlit: Provides a clean, interactive UI for users to input parameters and vi
 LocalTunnel: Enables temporary public access to the local Streamlit app for quick sharing and demo purposes.
 
 **⚙️ Features**
+
 Prompt-based custom email generation (e.g., “Cold email for sales lead in IT industry”).
 
 Editable subject and body preview.
@@ -20,6 +23,7 @@ Streamlit UI for easy interaction — no coding required.
 Simple public access via LocalTunnel without complex deployment.
 
 ⚠️ Note
+
 Performance is optimized for basic usage on low-resource machines. You may experience some delay in generation due to local inference and resource limitations — especially on CPUs or non-optimized models. However, it’s a fully self-contained, privacy-focused tool that doesn’t rely on external APIs.
 
 
